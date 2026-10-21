@@ -66,7 +66,7 @@ fun GithubCiDialog(
     val gitCommands = """
         # ১. গিটহাবে কোড পুশ করুন
         git add .
-        git commit -m "Auto release FontMorph custom font app"
+        git commit -m "Auto release Mukul Font app"
         git push origin main
 
         # ২. নতুন রিলিজ ট্যাগ তৈরি করুন
@@ -234,7 +234,7 @@ fun GithubCiDialog(
                 Spacer(modifier = Modifier.height(6.dp))
 
                 StepItem(1, if (isBangla) "GitHub রেপোসিটরির 'Actions' ট্যাবে বিল্ড স্ট্যাটাস লাইভ দেখা যাবে।" else "View live build status in repo's Actions tab.")
-                StepItem(2, if (isBangla) "বিল্ড শেষ হলে 'Releases' ট্যাবে 'FontMorph-v1.0.0-Universal.apk' সরাসরি চলে আসবে।" else "Universal APK will appear under repository Releases.")
+                StepItem(2, if (isBangla) "বিল্ড শেষ হলে 'Releases' ট্যাবে 'Mukul-Font-v1.0.0-Universal.apk' সরাসরি চলে আসবে।" else "Universal APK will appear under repository Releases.")
                 StepItem(3, if (isBangla) "যেকোনো অ্যান্ড্রয়েড ফোনে কোনো ওয়ার্নিং বা ঝামেলা ছাড়া ইনস্টল করা যাবে।" else "Users can directly download and install on any device.")
 
                 Spacer(modifier = Modifier.height(20.dp))

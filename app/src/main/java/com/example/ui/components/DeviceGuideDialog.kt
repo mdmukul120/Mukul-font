@@ -410,7 +410,7 @@ fun PixelGuideContent(isBangla: Boolean) {
             )
             Spacer(modifier = Modifier.height(8.dp))
             StepItem(1, if (isBangla) "স্টক অ্যান্ড্রয়েডে সরাসরি TTF ফন্ট এক্সপোর্ট করে Shizuku বা Wireless Debugging দিয়ে সিস্টেম ফন্ট ওভারলে করা যায়।" else "On Stock Android/Pixel, use Shizuku & Wireless ADB font overlays.")
-            StepItem(2, if (isBangla) "অথবা FontMorph অ্যাপে 'অ্যাপে ব্যবহার' ক্লিক করে সরাসরি এই অ্যাপেই ফন্ট উপভোগ করুন।" else "Or tap 'Set in App' to immediately enjoy the custom font inside FontMorph.")
+            StepItem(2, if (isBangla) "অথবা Mukul font অ্যাপে 'অ্যাপে ব্যবহার' ক্লিক করে সরাসরি এই অ্যাপেই ফন্ট উপভোগ করুন।" else "Or tap 'Set in App' to immediately enjoy the custom font inside Mukul font.")
         }
     }
 }

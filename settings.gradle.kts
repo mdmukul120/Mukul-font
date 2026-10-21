@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "FontMorph"
+rootProject.name = "Mukul font"
 
 include(":app")

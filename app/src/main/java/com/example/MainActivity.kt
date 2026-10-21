@@ -158,7 +158,7 @@ fun FontMorphApp(viewModel: FontViewModel = viewModel()) {
                 putExtra(Intent.EXTRA_TEXT, res.message)
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             }
-            val chooser = Intent.createChooser(sendIntent, "FontMorph: Share / Install Package")
+            val chooser = Intent.createChooser(sendIntent, "Mukul font: Share / Install Package")
             chooser.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             context.startActivity(chooser)
             viewModel.clearExportResult()
@@ -382,7 +382,7 @@ fun TopAppBar(
                         contentAlignment = Alignment.Center
                     ) {
                         Text(
-                            text = "F",
+                            text = "M",
                             color = Color.White,
                             fontWeight = FontWeight.Black,
                             fontSize = 20.sp
@@ -393,7 +393,7 @@ fun TopAppBar(
 
                     Column {
                         Text(
-                            text = "FontMorph",
+                            text = "Mukul font",
                             fontFamily = fontFamily,
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold,

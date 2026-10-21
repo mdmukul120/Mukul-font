@@ -297,7 +297,7 @@ fun OemInstallerView(
                 Icon(imageVector = Icons.Default.FormatPaint, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
-                    text = if (isBangla) "সরাসরি এই অ্যাপে ফন্ট সক্রিয় করুন (রুট ছাড়া)" else "Apply in FontMorph UI (No Root)",
+                    text = if (isBangla) "সরাসরি এই অ্যাপে ফন্ট সক্রিয় করুন (রুট ছাড়া)" else "Apply in Mukul font UI (No Root)",
                     fontWeight = FontWeight.Bold,
                     fontSize = 12.sp
                 )

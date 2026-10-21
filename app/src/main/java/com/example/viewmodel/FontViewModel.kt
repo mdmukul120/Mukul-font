@@ -150,7 +150,7 @@ class FontViewModel(application: Application) : AndroidViewModel(application) {
         _statusMessage.value = if (_isBangla.value) {
             "\"${font.name}\" ফন্ট অ্যাপে সফলভাবে সেট করা হয়েছে!"
         } else {
-            "\"${font.name}\" applied to FontMorph UI!"
+            "\"${font.name}\" applied to Mukul Font UI!"
         }
     }
 
