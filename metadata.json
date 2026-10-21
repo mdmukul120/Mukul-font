@@ -1,0 +1,8 @@
+{
+  "name": "FontMorph",
+  "description": "Universal Custom Font Changer & Manager for Android. Download, preview, and install Bengali & Google Fonts across Samsung, Xiaomi, OnePlus, Vivo, and rooted devices with GitHub CI/CD build scripts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

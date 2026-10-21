@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="cached_fonts" path="fonts/" />
+    <cache-path name="exports" path="exports/" />
+    <files-path name="downloaded_fonts" path="fonts/" />
+    <external-cache-path name="external_cache" path="." />
+</paths>
